@@ -1,0 +1,24 @@
+const numeros = [1,2,3];
+
+//inicio
+numeros.unshift(0);
+console.log(numeros);
+
+//meio (indice,deleteQuantosAFrente,adicionarz)
+numeros.splice(1,0,'a');
+console.log(numeros);
+
+//final
+numeros.push(5);
+console.log(numeros);
+
+
+const array = ['a','b','c','d'];
+array.unshift('oi');
+console.log(array);
+
+array.splice(3,0,'olá');
+console.log(array);
+
+array.push('finish');
+console.log(array);
